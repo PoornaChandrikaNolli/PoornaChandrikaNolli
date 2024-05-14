@@ -47,3 +47,23 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
+.container
+{
+    width:960 px;
+    margin : 0 auto;
+}
+
+@media(max-width: 768px)
+{
+.container{
+    width: 720px;
+}
+}
+@media(max-width: 480px)
+{
+    .container{
+        width: 100%;
+        paddding: 10px;
+    }
+}
